@@ -1,0 +1,8 @@
+for a class variable 
+we dont need to make onjects
+
+but in case of instance variable you need to make objects
+ 
+one instance class can be called in another instance class without an object
+
+ 
