@@ -2,7 +2,7 @@ public class Cal
 {
 	public static void main(String args[])
 	{
-	int d1,m1,y1;
+	int d1=0,m1=0,y1=0;
 	int d=Integer.parseInt(args[0]);
 	int m=Integer.parseInt(args[1]);
 	int y=Integer.parseInt(args[2]); //string ko integer me convert karne k lie ye particular statement use hota hai
@@ -13,7 +13,7 @@ public class Cal
                         
 			if(d==31)
 			{m1= m+1;
-			d=1;}
+			d1=1;}
 		}
 		
 		if(m==12)
@@ -30,9 +30,9 @@ public class Cal
                         
 			if(d==30)
 			{m1= m+1;
-			d=1;}
+			d1=1;}
 		}
-	System.out.println(+d1 " " +m1 " " +y1);
+	System.out.println(d1+ " " +m1+ " " +y1);
 }
 }
 		
