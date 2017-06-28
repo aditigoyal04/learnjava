@@ -1,0 +1,10 @@
+create a abstract class named Player
+1) It must have methods to set name age height weight country of a player
+2) It must have methods to show name age height weight country and stat of 
+a player
+
+create cub classes like 
+1)CricketPlayer-> matches,runs,wickets
+2)FootballPlayer-> matches,goals
+3)HockeyPlayer-> matches,goals
+4)RunningPlayer->runs,highest speed,average speed
