@@ -7,7 +7,7 @@ public class Cal
 	int m=Integer.parseInt(args[1]);
 	int y=Integer.parseInt(args[2]); //string ko integer me convert karne k lie ye particular statement use hota hai
 	
-	if(m==1 || m==3)
+	if(m==1 || m==3 || m==5 || m==7)
 	{
 		if(d>=1 || d<=30)
 		{d1=d+1;
@@ -17,7 +17,7 @@ public class Cal
 		m1= m+1;
 		System.out.println(d1+ " " +m1+" " +y);}
 	}
-	if(m==5 || m==7)
+/*	if(m==5 || m==7)
 	{
 		if(d>=1 || d<=30)
 		{d1=d+1;
@@ -27,6 +27,7 @@ public class Cal
 		m1=m+1;
 		System.out.println(d1+ " " +m1+" " +y);}
 	}
+*/
 	if(m==8 || m==10)
 	{
 		if(d>=1 || d<=30)
