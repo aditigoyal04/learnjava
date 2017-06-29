@@ -1,13 +1,28 @@
-for a class variable 
-we dont need to make onjects
+# for a class variable 
+  we dont need to make onjects
 
-but in case of instance variable you need to make objects
+# but in case of instance variable you need to make objects
  
-one instance class can be called in another instance class without an object
+# one instance class can be called in another instance class without an object
 
- for knowing the ip address of any system write command (ipconfig)
+# for knowing the ip address of any system write command (ipconfig)
 
-then write the persons computer command on the browser and port no like	192.168.1.13:7070 
-where 7070 is port number
+# then write the persons computer command on the browser and port no like  192.168.1.13:7070 
+  where 7070 is port number
 
- 
+# if we use extend any classA in another classB then class B will inhwrit all the properties of class A
+
+# class A
+	class B extends class A			single level inheritance
+
+# class A
+	class B extends class A			multilevel inheritance
+	class C extends class B
+
+# class A
+	class B extends class A			hierarchy level inheritance
+	class C extends class A
+
+# java does not support multiple, hybrid and multipath inheritance
+
+#

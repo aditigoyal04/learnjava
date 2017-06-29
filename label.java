@@ -2,7 +2,7 @@ class label
 {
 public static void main(String args[])
 	{
-	System.out.println("love");
+	System.out.println("Web Bhumi");
 	}
 
 }
